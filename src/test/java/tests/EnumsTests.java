@@ -17,7 +17,7 @@ public class EnumsTests extends TestBases {
     @DisplayName("Поиск и проверка товаров")
     @Tag("BLOCKER")
     public void successfulSearchProductTest(Product product) {
-        $(".css-1977rpo").setValue(product.description).pressEnter();
+        $(".ecmx7fl0").setValue(product.description).pressEnter();
         $(".app-catalog-1pwu1hf").$$(".app-catalog-fjtfe3").shouldBe(sizeGreaterThan(0));
     }
 }

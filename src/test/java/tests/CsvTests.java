@@ -16,7 +16,7 @@ public class CsvTests extends TestBases {
     @DisplayName("Поиск и проверка товаров")
     @Tag("BLOCKER")
     public void successfulSearchProductTest(String searchProduct) {
-        $(".css-1977rpo").setValue(searchProduct).pressEnter();
+        $(".ecmx7fl0").setValue(searchProduct).pressEnter();
         $(".app-catalog-1pwu1hf").$$(".app-catalog-fjtfe3").shouldBe(sizeGreaterThan(0));
     }
 }

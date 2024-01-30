@@ -10,6 +10,7 @@ public class TestBases {
     static void openSite() {
         open("https://www.citilink.ru/");
         Configuration.pageLoadStrategy = "eager";
+        Configuration.browserSize = "1920x1080";
 
     }
 }
